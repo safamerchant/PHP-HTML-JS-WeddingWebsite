@@ -1,0 +1,52 @@
+/* Footer styles */
+
+/* Style for the footer */
+.footer {
+  margin-top: 10px; /* Add margin at the top */
+  color: white; /* Set text color */
+  padding: 10px 0; /* Add padding */
+  position: fixed; /* Position fixed at the bottom */
+  bottom: 0; /* Align at the bottom */
+  width: 100%; /* Set width to full */
+  background-color: rgb(0, 0, 0, 0.5); /* Semi-transparent black background */
+  /* opacity: 0.5; */ /* Uncomment to set overall opacity */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Style for the footer content */
+.footer-content {
+  max-width: 1200px; /* Set maximum width */
+  margin: 0 auto; /* Center align horizontally */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Align items vertically */
+}
+
+/* Style for the contact information section */
+.contact-info {
+  flex: 1; /* Take remaining space */
+}
+
+/* Style for the footer navigation */
+.footer-nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for the list items in the footer navigation */
+.footer-nav ul li {
+  display: inline; /* Display inline */
+  margin-right: 20px; /* Add right margin */
+}
+
+/* Style for the last list item in the footer navigation */
+.footer-nav ul li:last-child {
+  margin-right: 0; /* Remove right margin for the last item */
+}
+
+/* Style for the links in the footer navigation */
+.footer-nav ul li a {
+  color: white; /* Set link color */
+  text-decoration: none; /* Remove underline */
+}

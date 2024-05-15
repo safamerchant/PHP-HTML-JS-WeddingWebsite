@@ -1,0 +1,124 @@
+/* Custom CSS styles */
+
+/* Set background color for the body */
+body {
+  background-color: whitesmoke;
+}
+
+/* Style for the main title */
+.title {
+  font-size: 100px; /* Set font size */
+  color: #8a8888; /* Define text color */
+  font-weight: 600; /* Set font weight */
+  margin: 5px; /* Add margin */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Align horizontally */
+}
+
+/* Hover effect on the main title */
+.title:hover {
+  -webkit-text-stroke: 2px #8a8888; /* Add outline stroke */
+  color: transparent; /* Make text transparent */
+  transition: 0.8s; /* Smooth transition */
+  text-decoration: underline; /* Add underline */
+  text-decoration-thickness: 2px; /* Set underline thickness */
+  text-underline-offset: 3px; /* Offset underline */
+}
+
+/* Styling for the title line */
+.title_line {
+  opacity: 0.5; /* Set opacity */
+  margin-top: 65px; /* Add margin at the top */
+  margin-left: 15px; /* Add left margin */
+  margin-right: 15px; /* Add right margin */
+  border: 2px solid #8a8888; /* Add thin grey border to the title */
+}
+
+/* Set width of images in the carousel */
+.custom-img {
+  width: 100%; /* Adjust the width of each image to fit the carousel */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for the text section */
+.text-section {
+  font-style: oblique; /* Set font style */
+  padding: 20px; /* Add padding to the text section */
+  color: black; /* Set text color */
+  align-content: center; /* Align content */
+  font-size: 20px; /* Set font size */
+  font-weight: 100; /* Set font weight */
+}
+
+/* Styling for the button */
+.button a {
+  font-style: normal; /* Set font style */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as block element */
+  color: #8a8888; /* Set text color */
+  font-size: 20px; /* Set font size */
+  border: 2px solid #8a8888; /* Add border */
+  padding: 14px 70px; /* Add padding */
+  border-radius: 50px; /* Add border radius */
+  margin-top: 20px; /* Add margin at the top */
+  opacity: 0.5; /* Set opacity */
+}
+
+/* Hover effect for the button */
+.button :hover {
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as block element */
+  color: #fff; /* Set text color */
+  background-color: #8a8888; /* Set background color */
+  font-size: 20px; /* Set font size */
+  border: 2px solid #fff; /* Add border */
+  padding: 14px 70px; /* Add padding */
+  border-radius: 50px; /* Add border radius */
+  margin-top: 20px; /* Add margin at the top */
+  opacity: 0.5; /* Set opacity */
+}
+
+/* Styling for the column in the grid */
+.col-md-6 {
+  padding: 30px; /* Add padding */
+  background-color: #d2e4f0; /* Set background color */
+}
+
+/* Styling for carousel control */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; /* Set transparent background */
+  color: #000; /* Set text color */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-content: center; /* Center vertically */
+}
+
+/* Styling for the carousel */
+.carousel {
+  box-shadow: 0 4px 8px #8a8888; /* Add shadow around the carousel */
+}
+
+/* Styling for the content section */
+.content {
+  display: flex; /* Use flexbox for layout */
+  margin-bottom: 0px; /* Set margin at the bottom */
+  height: auto; /* Set height to auto */
+  padding-top: 20px; /* Add padding at the top */
+  padding-left: 30px; /* Add left padding */
+  padding-right: 30px; /* Add right padding */
+  align-content: center; /* Align content */
+  justify-content: center; /* Center horizontally */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1110px) {
+  /* Adjust margin at the top for smaller screens */
+  .content {
+    margin-top: 20px;
+  }
+  /* Adjust font size for smaller screens */
+  .title {
+    font-size: 80px;
+  }
+}
